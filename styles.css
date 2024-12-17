@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    padding: 60px 0;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#header p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* Section Styles */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about-me {
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#about-me p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#about-me img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Skills and Education Styles */
+#skills-education {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#skills, #education {
+    flex: 1 1 calc(50% - 30px);
+    margin: 15px;
+}
+
+#skills h3, #education h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#skills p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education ul li {
+    margin-bottom: 15px;
+}
+
+#education ul li img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* GitHub and Achievements Styles */
+#github {
+    text-align: center;
+}
+
+#github-box {
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer; /* Changes cursor to a pointer indicating it's clickable */
+}
+
+#github-box img {
+    max-width: 100px; /* Reduced size for the images in 'Works' section */
+    max-height: 100px; /* Maintain the aspect ratio */
+    height: auto;
+    border-radius: 5px;
+}
+
+#github-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#github-box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Arrange works images top-to-bottom */
+#row {
+    display: flex;
+    flex-direction: column; /* Changed to column layout for top-to-bottom arrangement */
+    align-items: center;
+}
+
+#col-md-4 {
+    flex: 1;
+    width: 100%; /* Ensure full width */
+    padding: 15px;
+}
+
+  
+ 
